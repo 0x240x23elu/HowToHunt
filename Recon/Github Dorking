@@ -1,0 +1,45 @@
+With Domain
+"hackerone.com" Keyword
+Specific keyword in domain any 
+“Jira.a*.com” 
+“Vcenter.a*.com”
+“Vcenter.a*.*” 
+“alibaba.*” password
+“alibaba.*” port=3306 password 
+Unwanted keyword want to remove 
+NOT localhost NOT 127.0.01 NOT Test
+
+Dork List :
+https://raw.githubusercontent.com/vsec7/gitdorkhelper/main/all_dorks.txt
+https://github.com/techgaun/github-dorks/blob/master/github-dorks.txt
+language:bash password
+language:bash pwd
+language:bash ftp
+language:bash dotfiles
+language:bash JDBC
+language:bash key-keys
+language:bash send_key-keys
+language:bash send,key-keys
+language:bash token
+language:bash user
+language:bash login-singin
+language:bash passkey-passkeys
+language:bash pass
+language:bash secret
+language:bash credentials
+language:bash config
+language:bash security_credentials
+language:bash connectionstring
+language:bash ssh2_auth_password
+
+Use Always Recently index
+Source:
+https://orwaatyat.medium.com/your-full-map-to-github-recon-and-leaks-exposure-860c37ca2c82
+
+tools:
+https://github.com/techgaun/github-dorks
+https://github.com/michenriksen/gitrob
+https://github.com/dxa4481/truffleHog
+
+
+
